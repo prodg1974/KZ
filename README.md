@@ -1,3 +1,5 @@
+The most important piece for review is Kenzan3.py
+
 This code is designed to process a set of HTM files. It creates an instance of a page object for each file and parses the text of the page for a set of tags which become a property of the instance.  Values for path './', filespec '*meta*' and tag 'li' are hard coded.
 
 Executing the script with no parameters will generate a summary report. Passing a parameter of 'json' will output the page instances in json format (but without the tags), passing a parameter of sql will ouput sql designed to insert the parsed text of the tags into a 'Tags' table.
